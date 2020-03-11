@@ -220,14 +220,13 @@ export PATH=$PATH:${XILINX_VIVADO}/bin
 <code>setup_tools.ksh</code></p>
 <p>You may install other simulators to accelerate the speed of simulation. For example, <a href="https://www.cadence.com/content/cadence-www/global/en_US/home/tools/system-design-and-verification/simulation-and-testbench-verification/xcelium-parallel-simulator.html">Cadence xcelium</a>. See in <a href="../6-co-simulation/">co-simulation</a> for more information.</p>
 <h2 id="clone-github-repositories">Clone Github Repositories</h2>
-<p>TODO: Link to update</p>
-<pre><code>git clone git@github.com:OpenCAPI/oc-accel.git
+<pre><code>git clone https://github.com/OpenCAPI/oc-accel
 cd oc-accel
 git submodule init
 git submodule update
 
 cd ..
-git clone git@github.com:OpenCAPI/ocse.git
+git clone https://github.com/OpenCAPI/ocse
 </code></pre>
 
 <p>It's better to have <code>ocse</code> stay in the same directory parallel to <code>oc-accel</code>. That is the default path of <code>$OCSE_ROOT</code>. Or you need to assign <code>$OCSE_ROOT</code> explicitly in <code>snap_env.sh</code>.</p>

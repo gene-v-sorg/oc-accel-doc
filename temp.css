@@ -12,8 +12,7 @@ h1 {
 /*	text-align: center;*/
 	font-weight: bold;
 	border-bottom: 1px solid #ccc;
-        font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
-/*        font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;*/
+        font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
 
 }
 h2 {
@@ -21,15 +20,13 @@ h2 {
   text-decoration: underline;
   font-weight: bold;
   color: #2C3E50;
-  font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
-/*  font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;*/
+  font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
 }
 h3 {
   font-weight: bold;
   font-size: 18px;
   font-style: italic;
-  font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
-/*  font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;*/
+  font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
 }
 
 /****************************************************/
