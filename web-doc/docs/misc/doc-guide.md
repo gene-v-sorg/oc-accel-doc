@@ -54,8 +54,8 @@ First, you need to git clone the oc-accel repository and go to `web-doc` directo
 
 ``` bash
 git clone git@github.com:OpenCAPI/oc-accel.git
-git checkout <A branch other than master>
 cd oc-accel/web-doc
+git checkout <A branch other than master>
 ```
 
 The `docs` folder is where to put the markdown files, and the `mkdocs.yml` lists the website structure and global definitons. For example, this site has a structure like:
